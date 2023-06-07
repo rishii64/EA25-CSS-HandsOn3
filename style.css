@@ -1,0 +1,134 @@
+
+body{
+    background-color: rgb(113, 111, 108);
+}
+
+.box1{
+    border: 10px solid red;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgb(157, 6, 157); 
+    background-color: white;
+    color: rgba(147, 10, 10, 0.919);
+    width: 450px;
+    height: 220px;
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Times New Roman';
+    font-weight: 1000;
+    text-align: center;
+    margin-left: 400px;
+}
+.parent{
+    border: 10px solid green;
+    height: 700px;
+}
+.child{
+    border: 10px solid red;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgb(157, 6, 157); 
+    background-color: white;
+    color: black;
+    width: 270px;
+    height: 270px;
+    font-size: 27px;
+    font-style: normal;
+    font-family: 'Times New Roman';
+    font-weight: 1000;
+    text-align: center;
+    text-shadow: 2px 2px 2px purple;
+}
+img{
+    width: 220px;
+    height: 150px;
+    margin-top: 55px;
+}
+.box3{
+    position: absolute;
+    top: 285px;
+    right: 90px;
+}
+.box4{
+    font-size: 27px;
+    text-align: left;
+    position: absolute;
+    top: 650px;
+}
+.box5{
+    position: absolute;
+    top: 650px;
+    right: 90px;
+    line-height: 13px;
+}
+label{
+    font-size: 13px;
+}
+.button1{
+    background-color: brown;
+    border-radius: 10px;
+}
+.footer{
+    position: fixed;
+    bottom: 50px;
+    margin-left: 400px;
+    width: 470px;
+    height: 100px;
+    border: 10px solid red;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgb(157, 6, 157); 
+    background-color: greenyellow;
+    display: flex;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: none;
+    color: red;
+    z-index: 1;
+}
+.item1{
+    font-weight: 900;
+}
+.item2{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.parent2{
+    width: 800px;
+    height: 580px;
+    border: 10px solid purple;
+    position: absolute;
+    left: 300px;
+    top: 1030px;
+    text-align: center;
+    background-color: green;
+}
+h1{
+    font-size: 30px;
+}
+.box{
+    font-style: italic;
+    border: 2px solid rgb(122, 122, 119);
+    background-color: yellow;
+    font-weight: 600;
+}
+.box7{
+    width: 390px;
+    height: 250px;
+    position: absolute;
+    left: 5px;
+    top: 75px;
+}
+.box8{
+    position: absolute;
+    width: 390px;
+    height: 250px;
+    top: 75px;
+    right: 5px;
+}
+.box9{
+    position: relative;
+    top: 250px;
+    left: 5px;
+    width: 803px;
+    font-size: 16px;
+}
